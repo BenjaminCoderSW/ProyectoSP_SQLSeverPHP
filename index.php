@@ -62,6 +62,17 @@
                 </div>
             </div>
         </div>
+        
+        <!-- Card: Ejecutar Backup -->
+        <div class="col-md-6 col-lg-3">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Ejecutar Backup</h5>
+                    <p class="card-text">Realiza backups completos, diferenciales o de logs de transacciones.</p>
+                    <a href="backup.php" class="btn btn-secondary">Ir &raquo;</a>
+                </div>
+            </div>
+        </div>
 
     </div>
 </div>

@@ -2,7 +2,9 @@
 // Datos de conexión a SQL Server
 $serverName = "localhost"; // O el nombre de tu servidor SQL Server
 $connectionOptions = [
-    "Database" => "master",
+    "Database" => "AdminDB",            // Usar AdminDB en lugar de master
+    "UID"      => "SuperAdmin",          // Nuevo usuario creado
+    "PWD"      => "P@ssw0rd", // La contraseña que definiste
     "CharacterSet" => "UTF-8",
     "TrustServerCertificate" => true
 ];
